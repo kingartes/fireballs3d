@@ -1222,6 +1222,75 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d93580ea3c463f343b26d69dbfc016ee, type: 3}
+--- !u!1001 &2456891942803900887
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2456891941915553614, guid: 26838acb69cd511468930a9c4fd7842d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2456891941915553614, guid: 26838acb69cd511468930a9c4fd7842d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2456891941915553614, guid: 26838acb69cd511468930a9c4fd7842d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2456891941915553614, guid: 26838acb69cd511468930a9c4fd7842d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2456891941915553614, guid: 26838acb69cd511468930a9c4fd7842d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2456891941915553614, guid: 26838acb69cd511468930a9c4fd7842d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2456891941915553614, guid: 26838acb69cd511468930a9c4fd7842d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2456891941915553614, guid: 26838acb69cd511468930a9c4fd7842d,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2456891941915553614, guid: 26838acb69cd511468930a9c4fd7842d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2456891941915553614, guid: 26838acb69cd511468930a9c4fd7842d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2456891941915553614, guid: 26838acb69cd511468930a9c4fd7842d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2456891941915553615, guid: 26838acb69cd511468930a9c4fd7842d,
+        type: 3}
+      propertyPath: m_Name
+      value: GameObject
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 26838acb69cd511468930a9c4fd7842d, type: 3}
 --- !u!1 &2689638732529369072 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3864777840311936274, guid: d93580ea3c463f343b26d69dbfc016ee,
@@ -1333,9 +1402,32 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7273510908902862016, guid: 239f3dc5e3b4f6247aaa342f3e0f0e54,
         type: 3}
+      propertyPath: _bulletPrefab.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7273510908902862016, guid: 239f3dc5e3b4f6247aaa342f3e0f0e54,
+        type: 3}
       propertyPath: _recoilDistance
       value: 0.25
       objectReference: {fileID: 0}
+    - target: {fileID: 7273510908902862016, guid: 239f3dc5e3b4f6247aaa342f3e0f0e54,
+        type: 3}
+      propertyPath: _bulletPrefab.Array.data[0]
+      value: 
+      objectReference: {fileID: -5057240032435476764, guid: 44891c84b23640645a04f51d2b387a62,
+        type: 3}
+    - target: {fileID: 7273510908902862016, guid: 239f3dc5e3b4f6247aaa342f3e0f0e54,
+        type: 3}
+      propertyPath: _bulletPrefab.Array.data[1]
+      value: 
+      objectReference: {fileID: 2894798335156304460, guid: 9f7563fc8e0d835488fab584fb455724,
+        type: 3}
+    - target: {fileID: 7273510908902862016, guid: 239f3dc5e3b4f6247aaa342f3e0f0e54,
+        type: 3}
+      propertyPath: _bulletPrefab.Array.data[2]
+      value: 
+      objectReference: {fileID: 3298727540735529687, guid: 26838acb69cd511468930a9c4fd7842d,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 239f3dc5e3b4f6247aaa342f3e0f0e54, type: 3}
 --- !u!1001 &7556993222215072709
