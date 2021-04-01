@@ -26,10 +26,6 @@ public class Tower : MonoBehaviour
     {
         _blocks.Remove(hitBlock);
         sizeChanged?.Invoke(_blocks.Count);
-        if(_blocks.Count == 0)
-        {
-            DisplayWinMesage();
-        }
         foreach(var block in _blocks)
         {
             var hitBlockTransform = hitBlock.transform;
@@ -37,10 +33,5 @@ public class Tower : MonoBehaviour
             var hitBlockScale = hitBlockTransform.localScale;
             block.transform.position = new Vector3(hitBlockPosition.x, block.transform.position.y - hitBlockScale.y, hitBlockPosition.z);
         }
-    }
-
-    private void DisplayWinMesage()
-    {
-        Debug.Log("You won");
     }
 }
